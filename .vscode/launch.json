@@ -1,0 +1,39 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch BreakoutGame",
+            "request": "launch",
+            "mainClass": "BreakoutGame",
+            "vmArgs": "--module-path \"C:/Users/Ivan Hornung/Documents/javafx-sdk-17.0.0.1/lib\" --add-modules javafx.controls,javafx.fxml",
+            "projectName": "HonorsContract_43e7cd55"
+        },
+        {
+            "type": "java",
+            "name": "Launch BreakoutDriver",
+            "request": "launch",
+            "vmArgs": "--module-path \"C:/Users/Ivan Hornung/Documents/javafx-sdk-17.0.0.1/lib\" --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "BreakoutDriver",
+            "projectName": "HonorsContract_43e7cd55"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "vmArgs": "--module-path \"C:/Users/Ivan Hornung/Documents/javafx-sdk-17.0.0.1/lib\" --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "vmArgs": "--module-path \"C:/Users/Ivan Hornung/Documents/javafx-sdk-17.0.0.1/lib\" --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "App",
+            "projectName": "HonorsContract_43e7cd55"
+        }
+    ]
+}
